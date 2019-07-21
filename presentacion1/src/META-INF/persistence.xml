@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="presentacion1">
+		<class>model.EmGenCompra</class>
+		<class>model.EmGenCompraDetalle</class>
+		<class>model.EmGenCompraDetallePK</class>
+		<class>model.EmGenEmpresa</class>
+		<class>model.EmGenEmpresaSede</class>
+		<class>model.EmGenFormula</class>
+		<class>model.EmGenIngrediente</class>
+		<class>model.EmGenIngredientePK</class>
+		<class>model.EmGenInventarioMateriaPrima</class>
+		<class>model.EmGenMoje</class>
+		<class>model.EmGenProducto</class>
+		<class>model.EmGenProductoFinal</class>
+		<class>model.EmGenProveedor</class>
+		<class>model.EmGenProveedorTelefono</class>
+		<class>model.EmGenUnidadMedida</class>
+		<class>model.EmPersContrasena</class>
+		<class>model.EmPersCorreo</class>
+		<class>model.EmPersDireccion</class>
+		<class>model.EmPersEmpleado</class>
+		<class>model.EmPersPersona</class>
+		<class>model.EmPersRole</class>
+		<class>model.EmPersTelefono</class>
+		<class>model.EmPersTipoDocumento</class>
+		<class>model.EmPersTipoPersona</class>
+		<class>model.EmPersTipoTelefono</class>
+	</persistence-unit>
+</persistence>
